@@ -1,0 +1,256 @@
+feature {
+  name: "End Time"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Start Time"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Trip ID"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "End Centroid Location"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "End Community Area Name"
+  type: BYTES
+  domain: "End Community Area Name"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Start Centroid Location"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Start Community Area Name"
+  type: BYTES
+  domain: "Start Community Area Name"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Accuracy"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "End Census Tract"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "End Centroid Latitude"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "End Centroid Longitude"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "End Community Area Number"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Start Census Tract"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Start Centroid Latitude"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Start Centroid Longitude"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Start Community Area Number"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Trip Distance"
+  type: INT
+  int_domain {
+    min: 0
+    max: 1
+  }
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Trip Duration"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+string_domain {
+  name: "End Community Area Name"
+  value: "ALBANY PARK"
+  value: "ARCHER HEIGHTS"
+  value: "ARMOUR SQUARE"
+  value: "AUSTIN"
+  value: "AVONDALE"
+  value: "BELMONT CRAGIN"
+  value: "BRIDGEPORT"
+  value: "BRIGHTON PARK"
+  value: "CHICAGO LAWN"
+  value: "DUNNING"
+  value: "EAST GARFIELD PARK"
+  value: "GARFIELD RIDGE"
+  value: "HERMOSA"
+  value: "HUMBOLDT PARK"
+  value: "IRVING PARK"
+  value: "JEFFERSON PARK"
+  value: "LAKE VIEW"
+  value: "LINCOLN PARK"
+  value: "LOGAN SQUARE"
+  value: "LOOP"
+  value: "LOWER WEST SIDE"
+  value: "MCKINLEY PARK"
+  value: "MONTCLARE"
+  value: "NEAR NORTH SIDE"
+  value: "NEAR SOUTH SIDE"
+  value: "NEAR WEST SIDE"
+  value: "NEW CITY"
+  value: "NORTH CENTER"
+  value: "NORTH LAWNDALE"
+  value: "PORTAGE PARK"
+  value: "SOUTH LAWNDALE"
+  value: "UPTOWN"
+  value: "WEST GARFIELD PARK"
+  value: "WEST RIDGE"
+  value: "WEST TOWN"
+  value: "WOODLAWN"
+  value: "KENWOOD"
+  value: "LINCOLN SQUARE"
+  value: "NORWOOD PARK"
+  value: "WEST ENGLEWOOD"
+}
+string_domain {
+  name: "Start Community Area Name"
+  value: "ARMOUR SQUARE"
+  value: "AUSTIN"
+  value: "AVONDALE"
+  value: "BELMONT CRAGIN"
+  value: "BRIDGEPORT"
+  value: "DUNNING"
+  value: "EAST GARFIELD PARK"
+  value: "HERMOSA"
+  value: "HUMBOLDT PARK"
+  value: "IRVING PARK"
+  value: "LINCOLN PARK"
+  value: "LOGAN SQUARE"
+  value: "LOOP"
+  value: "LOWER WEST SIDE"
+  value: "MONTCLARE"
+  value: "NEAR NORTH SIDE"
+  value: "NEAR SOUTH SIDE"
+  value: "NEAR WEST SIDE"
+  value: "NEW CITY"
+  value: "NORTH CENTER"
+  value: "NORTH LAWNDALE"
+  value: "OHARE"
+  value: "PORTAGE PARK"
+  value: "SOUTH LAWNDALE"
+  value: "WEST GARFIELD PARK"
+  value: "WEST TOWN"
+  value: "WOODLAWN"
+  value: "BRIGHTON PARK"
+  value: "GAGE PARK"
+  value: "UPTOWN"
+}
